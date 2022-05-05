@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    background-color: aqua;
+}
+
+img{
+    border-radius: 50%;
+    width: 50%;
+    border: solid 2px gray;
+}
+.about{
+    background-color: aliceblue;
+    border: solid 2px rgb(158, 158, 215);
+    margin: 10px;
+}
+.nav-header{
+    text-decoration: none;
+    background-color: rgb(61, 112, 156);
+    color: white;
+    padding: 8px;
+    margin: 5px;
+}
