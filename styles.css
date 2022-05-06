@@ -129,7 +129,7 @@ ul{
     list-style: none;
     
 }
-#travel{
+.travel{
     background-color: rgb(186, 190, 194);
     margin: 5px;
     border-radius: 3px;
@@ -140,7 +140,7 @@ ul{
     align-items: center;
     
 }
-#cooking{
+.cooking{
     background-color: rgb(186, 190, 194);
     padding: 3px; 
     margin: 5px;
@@ -151,7 +151,7 @@ ul{
     justify-content: center;
     align-items: center;
 }
-#sports{
+.sports{
     background-color: rgb(186, 190, 194);
     padding: 3px; 
     margin: 5px;
