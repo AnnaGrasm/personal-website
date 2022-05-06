@@ -94,7 +94,9 @@ img{
 .about-text{
     display: flex;
     flex-flow: column wrap;
-    align-items: flex-start;
+    align-items: center;
+    padding: 2rem;
+    line-height: 1.5;
 
 }
 
@@ -103,7 +105,7 @@ section h2{
 }
 
 
-#like{
+.flex-bio{
     background-color: rgb(163, 191, 216);
     margin: 30px 10px;
     display: flex;
@@ -111,6 +113,17 @@ section h2{
     padding: 10px;
     color: white;
     
+}
+.flex-skills{
+    background-color: rgb(163, 191, 216);
+    opacity: .9;
+    margin: 30px 10px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column wrap;
+   justify-content: center;
+   align-items: center;
 }
 ul{
     list-style: none;
