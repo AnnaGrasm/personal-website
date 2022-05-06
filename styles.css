@@ -45,6 +45,16 @@ nav{
     justify-content: space-around;
    }
 
+   .nav-header{
+    text-decoration: none;
+    background-color: rgb(163, 191, 216);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
 
 img{
     height: 250px;
@@ -81,24 +91,25 @@ img{
     
     
 }
+.about-text{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+
+}
+
 section h2{
     text-transform: uppercase;
 }
-.nav-header{
-    text-decoration: none;
-    background-color: rgb(163, 191, 216);
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    
-}
 
-.like{
+
+#like{
     background-color: rgb(163, 191, 216);
     margin: 30px 10px;
     display: flex;
+    flex-flow: column wrap;
     padding: 10px;
+    color: white;
     
 }
 ul{
@@ -106,21 +117,50 @@ ul{
     
 }
 #travel{
-    background-color: aliceblue;
-    padding: 3px;
-    margin: 2px;
+    background-color: rgb(186, 190, 194);
+    margin: 5px;
     border-radius: 3px;
+    width: 40%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 #cooking{
-    background-color: rgb(197, 223, 246);
+    background-color: rgb(186, 190, 194);
     padding: 3px; 
-    margin: 2px;
+    margin: 5px;
     border-radius: 3px;
+    width: 40%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #sports{
-    background-color: rgb(165, 210, 250);
+    background-color: rgb(186, 190, 194);
     padding: 3px; 
-    margin: 2px;
+    margin: 5px;
     border-radius: 3px;
+    width: 40%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.flex-footer{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
 
