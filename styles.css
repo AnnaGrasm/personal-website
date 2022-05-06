@@ -104,15 +104,28 @@ section h2{
     text-transform: uppercase;
 }
 
-
+.diamand{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    transform: rotate(45deg);
+}
 .flex-bio{
     background-color: rgb(163, 191, 216);
     margin: 30px 10px;
     display: flex;
     flex-flow: column wrap;
+    align-items: flex-start;
     padding: 10px;
     color: white;
     
+}
+.flex-bio_text{
+    display: flex;
+    gap: 10px;
+    justify-content: ;
+    width: 100%;
 }
 .flex-skills{
     background-color: rgb(163, 191, 216);
