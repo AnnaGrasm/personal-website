@@ -6,23 +6,8 @@ body{
     background: url(https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80;)
     
 }
-nav{
-    display: flex;   
-    justify-content: space-around;
-   }
 
-.icon-header{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(163, 191, 216);
-    border-radius: 50%;
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 10px;
-    padding: 7px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
+
 h3 span{
     text-transform: uppercase;
    font-size: smaller;
@@ -43,6 +28,24 @@ header{
    
 }
 
+.icon-header{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(163, 191, 216);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;   
+    justify-content: space-around;
+   }
+
+
 img{
     height: 250px;
     width: 250px ;
@@ -52,12 +55,21 @@ img{
     
     
 }
-.img-potrait{
+.flex-about{
     background-color: rgb(163, 191, 216);
+    opacity: .9;
     margin: 30px 10px;
-    display: flex;
     color: white;
     font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.line{
+    display: block;
+    height: 2px;
+    width: 80%;
+    background-color: white;
 }
 .about{
     padding: 40px;
