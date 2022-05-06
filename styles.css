@@ -124,7 +124,6 @@ section h2{
 .flex-bio_text{
     display: flex;
     gap: 10px;
-    justify-content: ;
     width: 100%;
 }
 .flex-skills{
