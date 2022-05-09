@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,73 +18,92 @@
     <header>
         <div class="header-title">
         <span class="icon-header">AG</span>
-        <h3>Anna Grasmück/ <span>Web Developer Student</span></h3>
+        <h3>Anna Grasmück/ <span>Web Developer Student</span><i class="fa-regular fa-bangladeshi-taka-sign"></i></h3>
     </div>
         <nav>
             <a class="nav-header" href="#about">About Me</a>
             <a class="nav-header" href="#bio">Bio</a>
             <a class="nav-header" href="#skills">Skills</a>
             <a class="nav-header" href="#contact">Contact</a>
+            <i class="fa-thin fa-badger-honey"></i>
         </nav>
         
     </header>
 
     <main>
-        <section class="flex-about" id="about">
-            <img src="./Self-potrait.jpg" alt="selfpotrait">
+        <section class="about-section">
+       
+        <article class="about-text" id="about">
             
-
-            <article class="about-text">
-            <h2>About me</h2>
-            <h4>Age: 36 years / Location: Hamburg</h4>
-            <span class="line"></span>
+                <h2>About me</h2>
+                <span class="line"></span>
+                <h4>Age: 36 years / Location: Hamburg</h4>
                <p>
                    Hello I'm Anna Grasmück and Web Developer Student. Welcome to my profile. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad alias sed nobis aperiam aspernatur maxime quaerat modi veniam. Fugit consectetur modi doloremque, exercitationem omnis quos ab dignissimos sint repudiandae odio.
                </p>
                 
     
-            </article>
-        </section>
+            
+        </article>
+        <div class="about-img">
+        <img src="./Self-potrait.jpg" alt="selfpotrait">
+    </div>
+    </section>
         
-      <section  id="bio">
-<ul class="flex-bio">
-    <div class="flex-bio_text">
-        <span class="diamand"></span><li>2012 Universität Hamburg: Studium Sozialökonomie (B.A) </li>
+      
+    <section class="bio-section" id="bio">
+          <h2>Bio</h2>
+
+          <span class="line"></span>
+          
+          
+<ul class="bio-text">
+    <div class="bio-text_item">
+        <span class="diamand"></span><li>ab 2014 Jugendberufsagentur: Ausbildungsvermittlerin/Arbeitgberservice </li>
     </div>
-    <div class="flex-bio_text">
-        <span class="diamand"></span><li>2013 Wewana Play Birmingham/England: Marketing Assistant</li>
+
+    <div class="bio-text_item">
+        <span class="diamand"></span><li>2014 Blue Systems: Recruiting Assistant </li>
     </div>
-    <div class="flex-bio_text">
+    
+    <div class="bio-text_item">
         <span class="diamand"></span><li>2014 Goodgame Studios Hamburg: Recruiting Assistant </li>
     </div>
-  
-  
+
+    <div class="bio-text_item">
+        <span class="diamand"></span><li>2013 Wewana Play Birmingham/England: Marketing Assistant</li>
+    </div>
+   
+    <div class="bio-text_item">
+        <span class="diamand"></span><li>2012 Universität Hamburg: Studium Sozialökonomie (B.A) </li>
+    </div>
     
 </ul>
-
       </section >
       
-      <section id="skills" class="flex-skills">
+      <section id="skills" class="skills-section">
           <h2>Skills</h2>
           <span class="line"></span>
-<ul class="flex-skills_text">
+
+        
+<ul class="skills-text">
     
-    <div class="style-skill_list">
+    <div class="skills-text_item">
         <span class="diamand"></span><li>HTML</li>
     </div>
-    <div class="style-skill_list">
+    <div class="skills-text_item">
         <span class="diamand"></span><li>CSS</li>
     </div>
-    <div class="style-skill_list">
+    <div class="skills-text_item">
         <span class="diamand"></span><li>Vanilla JavaScript</li>
     </div>
-    <div class="style-skill_list">
+    <div class="skills-text_item">
         <span class="diamand"></span><li>Bootstrap</li>
     </div>
-    <div class="style-skill_list">
+    <div class="skills-text_item">
         <span class="diamand"></span><li>React</li>
     </div>
-    <div class="style-skill_list">
+    <div class="skills-text_item">
         <span class="diamand"></span><li>node.js</li>
     </div>
     
@@ -91,35 +111,44 @@
 
   
 </ul>
-      </section>
 
-        <section id="like">
+      </section>
+<!--
+        <section id="like" class="section-like">
             <h2>What I like</h2>
-            <ul>
-                <li class="travel">Traveling</li>
-                <li class="cooking">Cooking</li>
-                <li class="sports">A lot of Sports</li>
-                <ul>
-                    <li>Bandminton</li>
-                    <li>Yoga</li>
-                    <li>Running</li>
-                    <li>Table tennis</li>
-                </ul>
+            <span class="line"></span>
+            <ul class="like-text">
+                <li class="like-text_item">Traveling</li>
+                <li class="like-text_item">Cooking</li>
+                <li class="like-text_item">A lot of Sports</li>
+                <li class="like-text_item">Good Music</li>
+                <li class="like-text_item">Books</li>
+                
             </ul>
         </section>
+    -->
 
        
 
     </main>
 
    
-    <footer id="contact"> 
-        <ul class="flex-footer">
-        <li>Telefon: 0178/ 00000000</li>
+    <footer id="contact""> 
+        <div class="footer-list">
+        <ul class="contact">
+            <h3>Contact</h3>
+            <li>Telefon: 0178/ 00000000</li>
+            <li>E-Mail: anna.xxx@gmail.com</li>
+        </ul>
+        <ul class="connect">
+        <h3>Connect</h3>
         <li><a href="https://github.com/AnnaGrasm">GitHub</a></li>
         <li><a href="https://codepen.io/AnnaGras">CodePen</a></li>
+        <li><a href="">Twitter</a></li>
     
-    </ul></footer>
+    </ul>
+</div>
+</footer>
 
 </body>
 </html>
