@@ -13,6 +13,34 @@ h3 span{
    font-size: smaller;
 }
 
+.line{
+    display: block;
+    height: 2px;
+    margin-right: 2rem;
+    background-color: white;
+}
+
+h2, h3, h4{
+    text-transform: uppercase;
+}
+
+.diamand{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*HEADER*/
+
 header{
     display: flex;
     justify-content: space-between;
@@ -20,8 +48,7 @@ header{
     flex-wrap: wrap;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin: 2rem;
    
 }
 .header-title{
@@ -58,104 +85,89 @@ nav{
     
 }
 
-img{
-    height: 250px;
-    width: 250px ;
-    object-fit: cover;
-    margin-top: 10px;
-    border-radius: 50%;
-    
-    
-}
-.flex-about{
-    background-color: rgb(178, 196, 216);
-    margin: -10px 10px 30px 10px;
-    padding-top: 10px;
-    color: white;
-    font-size: 1.2rem;
+/*ABOUT*/
+.about-section{ 
+    margin: 3.5rem;
     display: flex;
     flex-wrap: wrap;
-   justify-content: center;
-}
-.line{
-    display: block;
-    height: 2px;
-    width: 100%;
-    background-color: white;
-}
-.about{
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
     
-    
-}
-h4{
-    text-transform: uppercase;
 }
 .about-text{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    padding: 2rem;
-    line-height: 1.5;
-
-}
-
-section h2{
-    text-transform: uppercase;
-}
-
-.diamand{
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    transform: rotate(45deg);
-}
-.flex-bio{
     background-color: rgb(178, 196, 216);
-    margin: -10px 10px 30px 10px;
-    padding: 10px 30px;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    
+    padding: 3rem;
+    width: 60%;
     color: white;
-    
-}
-.flex-bio_text{
+    font-size: 1.2rem;
+    line-height: 1.5;
     display: flex;
-    gap: 10px;
-    width: 100%;
+    flex-flow: wrap column;  
+    flex-grow: 1;  
 }
-.flex-skills{
+.about-img{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 350px;
+    width: 350px ;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 2rem;  
+}
+
+
+/*BIO*/
+.bio-section{
     background-color: rgb(178, 196, 216);
-    opacity: .9;
-    margin: -10px 10px 30px 10px;
+    margin: 3.5rem;
     padding: 10px 30px;
     color: white;
     font-size: 1.2rem;
     display: flex;
     flex-flow: column wrap;
    justify-content: space-around;
-   align-items: center;
-   
+    
+    
 }
-.flex-skills_text{
+
+.bio-text{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+
+
+}
+.bio-text_item{
+    height: 3rem;
+    width: auto;
+    gap: 7px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/*Skills*/
+.skills-section{
+    background-color: rgb(178, 196, 216);
+    margin: 3.5rem;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column wrap;
+   justify-content: space-around;
+}
+.skills-text{
     display: flex;
     flex-wrap: wrap;
-    
     gap: 10px;
 }
-ul{
-    list-style: none;
-    
-}
-.style-skill_list{
+
+.skills-text_item{
     background-color: rgb(146, 172, 194);
     height: 3rem;
     width: auto;
@@ -165,54 +177,62 @@ ul{
     align-items: center;
     border: white solid 2px;
     border-radius: 5px;
-
 }
 
-.travel{
-    background-color: rgb(186, 190, 194);
-    margin: 5px;
-    border-radius: 3px;
-    width: 40%;
-    height: 3rem;
+/*LIKE*/
+.section-like{
+    background-color: rgb(178, 196, 216);
+    margin: 3.5rem;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.2rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    flex-flow: column wrap;
+   justify-content: space-around;
+}
+.like-text{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+  
+}
+
+
+footer{
+background-color: rgb(169, 169, 180);
+margin: 3.5rem 3.5rem 0 3.5rem;
+padding: 10px 30px;
+color: white;
+}
+footer h3{
+    color: rgb(212, 212, 223);;
     
 }
-.cooking{
-    background-color: rgb(186, 190, 194);
-    padding: 3px; 
-    margin: 5px;
-    border-radius: 3px;
-    width: 40%;
-    height: 3rem;
+.footer-list{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 60%;
 }
-.sports{
-    background-color: rgb(186, 190, 194);
-    padding: 3px; 
-    margin: 5px;
-    border-radius: 3px;
-    width: 40%;
-    height: 3rem;
+
+
+.contact{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column wrap;
+    line-height: 1.5;
+}
+.connect{
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 1.5;
+}
+.connect a{
+    color: white;
 }
 
-.flex-footer{
-display: flex;
-justify-content: space-between;
 
-
-}
-
-li a{
-    text-decoration: none;
-    color: black;
-}
 
 
 
