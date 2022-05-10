@@ -1,0 +1,27 @@
+.skills{
+    margin: 2rem;
+    padding: 2rem; 
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column wrap;
+   background-color: var(--primary-color);
+   color: white;
+}
+.skills__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.skills__item{
+    height: 3rem;
+    width: auto;
+    gap: 7px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    border: white solid 2px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}

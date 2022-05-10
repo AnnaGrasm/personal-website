@@ -1,0 +1,20 @@
+
+
+.like{
+    background-color: rgb(178, 196, 216);
+    margin: 3.5rem;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    height: auto;
+    flex-flow: column wrap;
+   justify-content: space-around;
+}
+.like__content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+  
+}

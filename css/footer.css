@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 4rem;
+    color: white;
+    background-color: rgb(169, 169, 180);
+    height: 50vh;
+    }
+    
+    
+    
+    .footer__contact{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 1rem;
+        
+    }
+    .footer__connect{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 1rem;
+       
+        
+    }
+    .footer__headline{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    

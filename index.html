@@ -6,34 +6,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <title>Anna's Website</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+   
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+   
 </head>
 <body>
     
-    <header>
-        <div class="header-title">
-        <span class="icon-header">AG</span>
+    <header class="header">
+        <div class="header__name">
+        <span class="header__icon">AG</span>
         <h3>Anna Grasmück/ <span>Web Developer Student</span></h3>
-    </div>
+        </div>
         <nav>
-            <a class="nav-header" href="#about">About Me</a>
-            <a class="nav-header" href="#bio">Bio</a>
-            <a class="nav-header" href="#skills">Skills</a>
-            <a class="nav-header" href="#contact">Contact</a>
-            
+            <ul role="list" class="header__nav">
+            <li><a class="header__list" href="#about">About Me</a></li>
+            <li><a class="header__list" href="#bio">Bio</a></li>
+            <li><a class="header__list" href="#skills">Skills</a></li>
+            <li><a class="header__list" href="#contact">Contact</a></li>
+        </ul>
         </nav>
         
     </header>
 
     <main>
-        <section class="about-section">
+        <section class="about">
        
-        <article class="about-text" id="about">
+        <div class="about__content" id="about">
             
                 <h2>About me</h2>
                 <span class="line"></span>
@@ -44,68 +48,69 @@
                 
     
             
-        </article>
-        <div class="about-img">
-        <img src="./Self-potrait.jpg" alt="selfpotrait">
+        </div>
+        <div class="about__img">
+        <img src="./images/self-potrait.jpg" alt="">
     </div>
     </section>
         
       
-    <section class="bio-section" id="bio">
+    <section class="bio" id="bio">
           <h2>Bio</h2>
 
           <span class="line"></span>
           
           
-<ul class="bio-text">
-    <div class="bio-text_item">
-        <span class="diamand"></span><li>ab 2014 Jugendberufsagentur: Ausbildungsvermittlerin/Arbeitgberservice </li>
-    </div>
-
-    <div class="bio-text_item">
-        <span class="diamand"></span><li>2014 Blue Systems: Recruiting Assistant </li>
-    </div>
+<ul class="bio__content" role="list">
+    <li class="bio__item">
+        <span class="diamand"></span>ab 2014 Jugendberufsagentur: Ausbildungsvermittlerin/Arbeitgeberservice </li>
     
-    <div class="bio-text_item">
-        <span class="diamand"></span><li>2014 Goodgame Studios Hamburg: Recruiting Assistant </li>
-    </div>
 
-    <div class="bio-text_item">
-        <span class="diamand"></span><li>2013 Wewana Play Birmingham/England: Marketing Assistant</li>
-    </div>
+    <li class="bio__item">
+        <span class="diamand"></span>2014 Blue Systems: Recruiting Assistant </li>
+    
+    
+    <li class="bio__item">
+        <span class="diamand"></span>2014 Goodgame Studios Hamburg: Recruiting Assistant </li>
+    
+
+    <li class="bio__item">
+        <span class="diamand"></span>2013 Wewana Play Birmingham/England: Marketing Assistant</li>
    
-    <div class="bio-text_item">
-        <span class="diamand"></span><li>2012 Universität Hamburg: Studium Sozialökonomie (B.A) </li>
-    </div>
+   
+    <li class="bio__item">
+        <span class="diamand"></span>2012 Universität Hamburg: Studium Sozialökonomie (B.A) </li>
+    
     
 </ul>
       </section >
       
-      <section id="skills" class="skills-section">
+      
+      <section id="skills" class="skills">
           <h2>Skills</h2>
           <span class="line"></span>
 
         
-<ul class="skills-text">
+<ul class="skills__content">
     
-    <div class="skills-text_item">
-        <span class="diamand"></span><li>HTML</li>
-    </div>
-    <div class="skills-text_item">
-        <span class="diamand"></span><li>CSS</li>
-    </div>
-    <div class="skills-text_item">
-        <span class="diamand"></span><li>Vanilla JavaScript</li>
-    </div>
-    <div class="skills-text_item">
-        <span class="diamand"></span><li>Bootstrap</li>
-    </div>
-    <div class="skills-text_item">
-        <span class="diamand"></span><li>React</li>
-    </div>
-    <div class="skills-text_item">
-        <span class="diamand"></span><li>node.js</li>
-    </div>
+    <li class="skills__item">
+        <span class="diamand"></span>HTML</li>
+    
+    <li class="skills__item">
+        <span class="diamand"></span>CSS</li>
+    
+    <li class="skills__item">
+        <span class="diamand"></span>Vanilla JavaScript</li>
+    
+    <li class="skills__item">
+        <span class="diamand"></span>Bootstrap</li>
+    
+    <li class="skills__item">
+        <span class="diamand"></span>React</li>
+   
+    <li class="skills__item">
+        <span class="diamand"></span>node.js</li>
+    
     
 
 
@@ -114,10 +119,10 @@
 
       </section>
 <!--
-        <section id="like" class="section-like">
+        <section id="like" class="like">
             <h2>What I like</h2>
             <span class="line"></span>
-            <ul class="like-text">
+            <ul class="like__content">
                 <li class="like-text_item">Traveling</li>
                 <li class="like-text_item">Cooking</li>
                 <li class="like-text_item">A lot of Sports</li>
@@ -133,21 +138,31 @@
     </main>
 
    
-    <footer id="contact""> 
-        <div class="footer-list">
-        <ul class="contact">
-            <h3>Contact</h3>
+    <footer id="contact" class="footer"> 
+
+        <div class="footer__contact">
+        <ul role="list">
+            <li><span class="footer__headline">Contact</span></li>
             <li>Telefon: 0178/ 00000000</li>
             <li>E-Mail: anna.xxx@gmail.com</li>
         </ul>
-        <ul class="connect">
-        <h3>Connect</h3>
-        <li><a href="https://github.com/AnnaGrasm">GitHub</a></li>
+    </div>
+    <div class="footer__connect">
+        <li><span class="footer__headline">Connect</span></li>
+        
+       <li><a href="https://github.com/AnnaGrasm">GitHub</a></li> 
+       <li><a href="https://de.linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/?lang=de">Twitter</a></li>
         <li><a href="https://codepen.io/AnnaGras">CodePen</a></li>
-        <li><a href="">Twitter</a></li>
     
     </ul>
 </div>
+
+
+
+
+    
+
 </footer>
 
 </body>
