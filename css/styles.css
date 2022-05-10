@@ -1,0 +1,39 @@
+@import "./variables.css";
+
+@import "./global.css";
+@import "./header.css";
+@import "./about.css";
+@import "./bio.css";
+@import "./skills.css";
+@import "./footer.css";
+
+
+
+
+
+.line{
+    display: block;
+    height: 2px;
+    margin-right: 2rem;
+    background-color: white;
+}
+
+h2, h3, h4{
+    text-transform: uppercase;
+}
+
+.diamand{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
